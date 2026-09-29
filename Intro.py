@@ -25,63 +25,63 @@ with col1:
  url = "https://appnivelcornare-bkqfxz6qorqesghcdrtkmr.streamlit.app/"
  st.write(f"Enlace app: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
+ st.subheader("Predictor de calidad de aire")
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://yolov5cmc.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("En la siguiente enlace podemos ver el análisis de la calidad del aire en un área específica, relacionando un archivo de datos de cierta área realizado por Cornare") 
+ url = "https://apppron-sticoairecornare-zvdempatq2pygdzewws59m.streamlit.app/"
+ st.write(f"Enlace app: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
+ st.subheader("Regresión logística de Lluvia")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("En la siguiente enlace podemos observar el estudio probabilístico tomando diferentes factores en cuenta para determinar la probabilidad de lluvias en un sector en específico.") 
+ url = "https://appregresionlogistica-6m6jzsezvhh7eozbvgfydd.streamlit.app/"
+ st.write(f"Enlace app: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
+ st.subheader("Series de tiempo")
  image = Image.open('OIG8.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.write("En la siguiente se puede observar un aplicativo enfocado a series de tiempo con el modelo SARIMA por medio de un simulador de dispositivo iot para explicar el impacto y el relacionamiento de los conceptos de series de tiempo.") 
+ url = "https://appseriestiempo-gab5wq5rzbuyfxwuwjkwwd.streamlit.app/"
+ st.write(f"Enlace app: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
+ st.subheader("Descenso de gradiente")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://dataagente.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+ st.write("En la siguiente enlace se puede observar un simulador visual e interactivo para entender como funciona el algoritmo de Descenso de Gradiente en la optimización de funciones matemáticas.") 
+ url = "https://tomasg15-app-gradient-app-gradient-rama2-4cmcjp.streamlit.app/"
+ st.write(f"Enlace app: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
+ st.subheader("Detector de Anomalías")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+ st.write("En el siguiente enlace podemos observar como funciona la detección de anomalías mediante lógica condicional, y como optimizar este proceso usando NumPy y análisis de complejidad computacional (Big-O.") 
+ url = "https://detector-anomal-as-h3tvmqfn3buwpbgkhgxx3p.streamlit.app/"
+ st.write(f"Enlace app: [Enlace]({url})")
 
 
 with col3: 
- st.subheader("Generación en Contexto")
+ st.subheader("Análisis de futas")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+ st.write("En el siguiente enlace vemos un aplicativo interactivo el cual analiza diferentes cualidades y propiedades de una fruta para al final, determinar a cual de las 4 opciones disponibles se parece.") 
+ url = "https://frutasapppy-cawrkr6g3napm5uac9xfg4.streamlit.app/"
+ st.write(f"Enlace app: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
+ st.subheader("Estudio de fertilidad de Suelos")
  image = Image.open('OIG4.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("En el siguiente aplicativo podemos observar una herramienta para entender como la IA puede clasificar terrenos agrícolas buscando patrones y similitudes con muestras históricas de laboratorio.") 
+ url = "https://knnconsuelosagrosavia-shtkfth74t9y8ee5bppcyq.streamlit.app/"
+ st.write(f"Enlacce app: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
+ st.subheader("Predictor de sensación térmica")
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("En el siguiente enlace podemos observar un aplicativo con datos reales de temperatura y humedad tomados por un sensor IoT, usados para entrenar un modelo de regresión lineal que predice la sensación térmica..") 
+ url = "https://predictorsensaciontermica-ua8hhhrw8d3vg4z3ujtsfr.streamlit.app/"
+ st.write(f"Enlace app: [Enlace]({url})")
 
 
