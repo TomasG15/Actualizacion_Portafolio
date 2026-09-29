@@ -11,8 +11,8 @@ with st.sidebar:
   )
   st.write(parrafo)
 
-url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
+url_ia="https://sites.google.com/view/computacinavanzada/inicio?pli=1&authuser=0"
+st.subheader("En el siguiente enlace puedes encontrar ejercicios prácticos e información útil relacionada al análisis de datos y al machine learning")
 st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
